@@ -1,5 +1,6 @@
 return {
   "folke/snacks.nvim",
+  keys = { { "<leader>;", function() Snacks.dashboard() end, desc = "Dashboard" } },
   opts = {
     dashboard = {
       preset = {
