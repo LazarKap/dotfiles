@@ -75,7 +75,7 @@ Mouse wheel also scrolls (mouse is on).
 |---|---|
 | **Alt-a** | popup shell in current dir (Esc/exit closes) |
 | prefix `b` | hide/show status bar |
-| prefix `R` | reload `~/.tmux.conf` |
+| prefix `R` | reload tmux config |
 | prefix `t` | clock |
 | prefix `?` | list all key bindings |
 | prefix `:` | command prompt, e.g. `:kill-server` |
@@ -93,5 +93,5 @@ tmux a -t babel          # tomorrow, everything is still there
 
 ## Config
 
-`~/.tmux.conf` from github.com/doza-daniel/dotfiles (macbook branch).
+`~/.config/tmux/tmux.conf` from github.com/doza-daniel/dotfiles (macbook branch).
 Status bar colours come from `ghostty +show-config`, so the theme follows Ghostty's.
