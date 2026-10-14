@@ -126,3 +126,14 @@ Examples: `ciw` change word, `di"` delete inside quotes, `yap` copy paragraph, `
 2. `dd yy p`, `x`, `.`, `f{c}`, `/`, `n`
 3. operators + text objects: `ciw`, `di(`, `yap`
 4. counts, `Ctrl-o`, `%`, `*`, `gv`, macros
+
+## Claude Code inside nvim (claude-nvim)
+
+| Key | What |
+|---|---|
+| `<leader>C` | dashboard: projects with ● for live sessions |
+| `Enter` / `c` / `dd` | open or attach / continue last / kill |
+| `-` | dashboard from a claude buffer, back from the dashboard |
+| `Ctrl-\ Ctrl-n` | leave Claude's prompt, vim motions over the output |
+| `i` | back to typing |
+| `Tab` / `Shift-Tab` | next / previous session (buffers) |
