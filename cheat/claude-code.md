@@ -67,4 +67,4 @@ Not supported: counts (`3w`), `%`, `*`, macros, registers, `:` commands.
 
 ## Slash commands worth knowing
 
-`/config`, `/keybindings`, `/vim` (toggle), `/model`, `/clear`, `/compact`, `/cost`, `/help`.
+`/config`, `/keybindings`, `/model`, `/clear`, `/compact`, `/cost`, `/help`.
