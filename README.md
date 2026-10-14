@@ -13,7 +13,7 @@ Ghostty · tmux · Neovim (LazyVim)
 | Ghostty | `.config/ghostty/config` — Catppuccin Mocha, DejaVu Sans Mono, Option = Meta |
 | tmux | `.config/tmux/tmux.conf` — prefix `Ctrl-d`, splits `v`/`h`, panes `Alt-hjkl`, colours follow Ghostty |
 | Neovim | `.config/nvim` — LazyVim + oil.nvim |
-| Cheat sheets | `cheat/tmux.md`, `cheat/ghostty.md`, `cheat/nvim.md`, `cheat/claude-code.md` |
+| Cheat sheets | `cheat/tmux.md`, `cheat/ghostty.md`, `cheat/nvim.md` |
 
 ## Fresh Mac
 
