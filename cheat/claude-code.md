@@ -1,7 +1,7 @@
 # Claude Code
 
 Vim mode is on (`editorMode = vim` in `~/.claude/settings.json`), `jk` leaves insert mode.
-Custom keys live in `~/.claude/keybindings.json` (`/keybindings` opens it, hot-reloads).
+Custom keys would go in `~/.claude/keybindings.json`, but bare-letter bindings leak into the prompt, so none are set.
 
 ## Prompt, vim mode
 
@@ -45,10 +45,9 @@ Not supported: counts (`3w`), `%`, `*`, macros, registers, `:` commands.
 | `!cmd` | run a shell command inline |
 | `@file` | attach a file |
 
-## Scrolling (custom, vi style)
+## Scrolling
 
-`j` / `k` line, `Ctrl-u` / `Ctrl-f` half page, `gg` / `G` top / bottom.
-(`Ctrl-d` is the tmux prefix, so it's not usable here.)
+Mouse wheel, `PageUp` / `PageDown`, `Ctrl-Home` / `Ctrl-End`. Or `Ctrl-O` for the transcript viewer.
 
 ## Sessions and agents
 
