@@ -1,0 +1,11 @@
+keybind = opt+f=esc:f
+keybind = opt+b=esc:b
+keybind = opt+d=esc:d
+keybind = opt+h=esc:h
+keybind = opt+j=esc:j
+keybind = opt+k=esc:k
+keybind = opt+l=esc:l
+
+theme = catppuccin mocha
+font-family = DejaVu Sans Mono Bold
+font-feature = -calt
